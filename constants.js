@@ -21,16 +21,16 @@
     - http://webdesign.about.com/od/localization/l/blhtmlcodes-cur.htm#codes
 */
 var Constants = {
-  APP_NAME: "Bitstarter", 
-  FUNDING_TARGET: 10.00,
+  APP_NAME: "TellMeCicero", 
+  FUNDING_TARGET: 2000.00,
   FUNDING_UNIT_SYMBOL: "mBTC",
   FUNDING_SI_SCALE: 1000,
-  FUNDING_END_DATE: new Date("September 8, 2013"),
-  PRODUCT_NAME: "Product: Development Version",
-  PRODUCT_SHORT_DESCRIPTION: "One sentence description.",
+  FUNDING_END_DATE: new Date("December 13, 2013"),
+  PRODUCT_NAME: "Tell Me Cicero",
+  PRODUCT_SHORT_DESCRIPTION: "Live your travel to get the best of the place you're in",
   TWITTER_USERNAME: "nodejs",
-  TWITTER_TWEET: "This student crowdfunder looks interesting.",
-  COINBASE_PREORDER_DATA_CODE: "13b56883764b54e6ab56fef3bcc7229c",
+  TWITTER_TWEET: "This project crowdfunder looks interesting.",
+  COINBASE_PREORDER_DATA_CODE: "56be80b08e7e302f94f31552c4e60fa9",
   days_left: function() {
       return Math.max(Math.ceil((this.FUNDING_END_DATE - new Date()) / (1000*60*60*24)), 0);
   }
