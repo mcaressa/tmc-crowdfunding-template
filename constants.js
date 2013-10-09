@@ -28,7 +28,7 @@ var Constants = {
   FUNDING_END_DATE: new Date("December 13, 2013"),
   PRODUCT_NAME: "Tell Me Cicero",
   PRODUCT_SHORT_DESCRIPTION: "Live your travel to get the best of the place you're in",
-  TWITTER_USERNAME: "nodejs",
+  TWITTER_USERNAME: "TellMeCicero",
   TWITTER_TWEET: "This project crowdfunder looks interesting.",
   COINBASE_PREORDER_DATA_CODE: "56be80b08e7e302f94f31552c4e60fa9",
   days_left: function() {
