@@ -23,8 +23,8 @@
 var Constants = {
   APP_NAME: "TellMeCicero", 
   FUNDING_TARGET: 2000.00,
-  FUNDING_UNIT_SYMBOL: "mBTC",
-  FUNDING_SI_SCALE: 1000,
+  FUNDING_UNIT_SYMBOL: "BTC",
+  FUNDING_SI_SCALE: 1,
   FUNDING_END_DATE: new Date("December 13, 2013"),
   PRODUCT_NAME: "Tell Me Cicero",
   PRODUCT_SHORT_DESCRIPTION: "Live your travel to get the best of the place you're in",
